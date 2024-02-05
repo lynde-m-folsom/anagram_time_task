@@ -15,7 +15,7 @@ const randomize_choice_order = true;     // Randomize choice order
 //---------------------------------------//
 // Define  anagram images to load
 const anagram = jsPsych.randomization.shuffle([1,2,3,4]).map((j,i) => {
-  return './img'+j+'.heic';
+  return './img'+j+'.jpeg';
 });
 // Define task_info
 const task_info = {
